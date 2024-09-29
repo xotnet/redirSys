@@ -49,6 +49,6 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install -g
+        run: npm ci
       - name: Run your Node.js script
         run: node index.js
